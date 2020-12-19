@@ -17,19 +17,19 @@ Implemented a 2D convolutional neural network to learn mask to denoise audio hav
 Trained a CNN model on CIFAR-10 dataset using self-supervised learning by first learning visual representations and then using those representations to train the model using transfer learning. Compared the performance of the model with a baseline model.
 
 **6. Network Compression Using SVD:**\
-Trained a CNN model on CIFAR-10 dataset using self-supervised learning by first learning visual representations and then using those representations to train the model using transfer learning. Compared the performance of the model with a baseline model.
+Reduced network parameters by usage of SVD on the parameters. Compared network performance with respect of number of parameters needed for the network to understand effect of network compression.
 
 **7. Audio Denoising using RNN:**\
-Trained a CNN model on CIFAR-10 dataset using self-supervised learning by first learning visual representations and then using those representations to train the model using transfer learning. Compared the performance of the model with a baseline model.
+Implemented a Recurrent neural network to learn the mask to denoise 500 audio samples ifused with different types of noise.
 
 **8. RNN as Generative Model:**\
-Trained a CNN model on CIFAR-10 dataset using self-supervised learning by first learning visual representations and then using those representations to train the model using transfer learning. Compared the performance of the model with a baseline model.
+Trained an RNN model to predict other half of an MNIST image (considered as sequence).
 
 **9. Speaker Verification Using Siamese Network**\
-Trained a CNN model on CIFAR-10 dataset using self-supervised learning by first learning visual representations and then using those representations to train the model using transfer learning. Compared the performance of the model with a baseline model.
+Implemented a Siamese network to verify which audio clip belongs to which speaker.
 
 **10. Variational-AutoEncoders:**\
-Trained a CNN model on CIFAR-10 dataset using self-supervised learning by first learning visual representations and then using those representations to train the model using transfer learning. Compared the performance of the model with a baseline model.
+Learned the gaussian distribution which can generate MNIST digits. Tried different combinations of parameters of the distribution to see effect on the generated digits.
 
 **11. MNIST conditional GAN:**\
 Trained a CNN model on CIFAR-10 dataset using self-supervised learning by first learning visual representations and then using those representations to train the model using transfer learning. Compared the performance of the model with a baseline model.
