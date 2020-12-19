@@ -12,3 +12,6 @@ Implemented a 1D convolutional neural network to learn the mask to denoise audio
 
 **4. Audio Denoising using 2D CNN implemented**
 Implemented a 2D convolutional neural network to learn mask to denoise audio having chip eating noise Suprisingly, 1D CNN outperforms 2D cnn. This can be reasoned by saying that audio data is kind of time series data and has only 2 dimentions, one is time and other is value at that time instance. It makes more sense to use 2D convs for data with 3 dimentions. For example Images
+
+**5. Self-Supervised Learning using pre-text tasks**
+Trained a CNN model on CIFAR-10 dataset using self-supervised learning by first learning visual representations and then using those representations to train the model using transfer learning. Compared the performance of the model with a baseline model.
