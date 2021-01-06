@@ -32,7 +32,7 @@ Implemented a Siamese network to verify which audio clip belongs to which speake
 Learned the gaussian distribution which can generate MNIST digits. Tried different combinations of parameters of the distribution to see effect on the generated digits.
 
 **11. MNIST conditional GAN:**\
-Trained a CNN model on CIFAR-10 dataset using self-supervised learning by first learning visual representations and then using those representations to train the model using transfer learning. Compared the performance of the model with a baseline model.
+Implemented a conditional GAN to generate handwritten digits similar to MNIST digits.
 
 **12. Missing Value Imputation using conditional GAN:**\
-Implemented a regularized conditional GAN to predict surrounding pixels given the center patch of an MNIST image. Implemented 3 type of architecture: Baseline, regularized GAN (\lambda = 0.1), regularized GAN($\lambda$ = 10) and compared their performance.
+Implemented a conditional GAN to predict surrounding pixels given the center patch of an MNIST digit. Applied regularization to control the model to predict the border pixels. Trained 3 type of architectures: Baseline, regularized GAN (lambda = 0.1), regularized GAN (lambda = 10) and compared their performance.
