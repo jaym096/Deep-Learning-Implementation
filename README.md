@@ -35,4 +35,4 @@ Learned the gaussian distribution which can generate MNIST digits. Tried differe
 Trained a CNN model on CIFAR-10 dataset using self-supervised learning by first learning visual representations and then using those representations to train the model using transfer learning. Compared the performance of the model with a baseline model.
 
 **12. Missing Value Imputation using conditional GAN:**\
-Implemented a regularized conditional GAN to predict surrounding pixels given the center patch of an MNIST image. Implemented 3 type of architecture: Baseline, regularized GAN($\lambda$ = 0.1), regularized GAN($$\Lambda$$ = 10) and compared their performance.
+Implemented a regularized conditional GAN to predict surrounding pixels given the center patch of an MNIST image. Implemented 3 type of architecture: Baseline, regularized GAN($\lambda$ = 0.1), regularized GAN($\lambda$ = 10) and compared their performance.
